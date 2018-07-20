@@ -1,0 +1,1239 @@
+/* Font */
+@font-face {
+  font-family: 'Century Gothic';
+  src: url(../fonts/CenturyGothic-Bold.woff2) format("woff2"), url(../fonts/CenturyGothic-Bold.woff) format("woff");
+  font-weight: bold;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  src: url(../fonts/CenturyGothic.woff2) format("woff2"), url(../fonts/CenturyGothic.woff) format("woff");
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  src: url(../fonts/CenturyGothic-BoldItalic.woff2) format("woff2"), url(../fonts/CenturyGothic-BoldItalic.woff) format("woff");
+  font-weight: bold;
+  font-style: italic
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  src: url(../fonts/CenturyGothic-Italic.woff2) format("woff2"), url(../fonts/CenturyGothic-Italic.woff) format("woff");
+  font-weight: normal;
+  font-style: italic
+}
+
+/* IconMoon */
+@font-face {
+  font-family: 'icomoon';
+  src: url(../fonts/icomoon.eot);
+  src: url(../fonts/icomoon#iefix.eot) format("embedded-opentype"), url(../fonts/icomoon.ttf) format("truetype"), url(../fonts/assets/icomoon.woff) format("woff"), url(https://cdn.loanstreet.com.my/assets/icomoon-b2eadecf0b5834dae292b4821ae10ac7.svg?3nn3y#icomoon) format("svg");
+  font-weight: normal;
+  font-style: normal
+}
+
+[class^="icon-"]:after,
+.ls-faq-accordian .panel-heading h4 a[class^="icon-"]:before,
+[class*=" icon-"]:after,
+.ls-faq-accordian .panel-heading h4 a[class*=" icon-"]:before,
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
+.icon-solid-popular-creditcard:before {
+  content: "\e963"
+}
+
+.icon-solid-all-creditcards:before {
+  content: "\e969"
+}
+
+.icon-solid-asb-loans:before {
+  content: "\e964"
+}
+
+.icon-solid-car-loans:before {
+  content: "\e965"
+}
+
+.icon-solid-home-loan:before {
+  content: "\e966"
+}
+
+.icon-solid-learning-article:before {
+  content: "\e967"
+}
+
+.icon-solid-personal-loan:before {
+  content: "\e968"
+}
+
+.icon-solid-popular-personalloan:before {
+  content: "\e96a"
+}
+
+.icon-solid-share-margin:before {
+  content: "\e96b"
+}
+
+.icon-solid-tools-n-calculator:before {
+  content: "\e96c"
+}
+
+.icon-mark:before {
+  content: "\e962"
+}
+
+.icon-ribbon:before {
+  content: "\e961"
+}
+
+.icon-amount:before {
+  content: "\e95f"
+}
+
+.icon-monthly:before {
+  content: "\e960"
+}
+
+.icon-ask-help:before {
+  content: "\e95c"
+}
+
+.icon-housing-label:before {
+  content: "\e95d"
+}
+
+.icon-featured-label:before {
+  content: "\e95e"
+}
+
+.icon-close-02:before {
+  content: "\e95b"
+}
+
+.icon-post:before {
+  content: "\e95a"
+}
+
+.icon-up-arrow-rounded:before {
+  content: "\e956"
+}
+
+.icon-down-arrow-rounded:before {
+  content: "\e957"
+}
+
+.icon-right-arrow-rounded:before {
+  content: "\e958"
+}
+
+.icon-left-arrow-rounded:before {
+  content: "\e959"
+}
+
+.icon-arrow-down:before {
+  content: "\e935"
+}
+
+.icon-arrow-left:before {
+  content: "\e936"
+}
+
+.icon-arrow-right:before {
+  content: "\e937"
+}
+
+.icon-arrow-up:before {
+  content: "\e938"
+}
+
+.icon-analysis:before {
+  content: "\e939"
+}
+
+.icon-bullhorn:before {
+  content: "\e93a"
+}
+
+.icon-calculator-022:before {
+  content: "\e93b"
+}
+
+.icon-construction:before {
+  content: "\e93c"
+}
+
+.icon-credit-card-02:before {
+  content: "\e93d"
+}
+
+.icon-creditcard-n-wallet:before {
+  content: "\e93e"
+}
+
+.icon-event:before {
+  content: "\e93f"
+}
+
+.icon-eyeglasses:before {
+  content: "\e940"
+}
+
+.icon-factory:before {
+  content: "\e941"
+}
+
+.icon-hand-shake:before {
+  content: "\e942"
+}
+
+.icon-home-loan:before {
+  content: "\e943"
+}
+
+.icon-house:before {
+  content: "\e944"
+}
+
+.icon-lifestyle:before {
+  content: "\e945"
+}
+
+.icon-link:before {
+  content: "\e946"
+}
+
+.icon-loan2:before {
+  content: "\e947"
+}
+
+.icon-meeting:before {
+  content: "\e948"
+}
+
+.icon-passbook:before {
+  content: "\e949"
+}
+
+.icon-percentage:before {
+  content: "\e94a"
+}
+
+.icon-personal-loan:before {
+  content: "\e94b"
+}
+
+.icon-piggy-bank:before {
+  content: "\e94c"
+}
+
+.icon-subscribe2:before {
+  content: "\e94d"
+}
+
+.icon-technology:before {
+  content: "\e94e"
+}
+
+.icon-time-is-money:before {
+  content: "\e94f"
+}
+
+.icon-tools:before {
+  content: "\e950"
+}
+
+.icon-wallet:before {
+  content: "\e951"
+}
+
+.icon-wave:before {
+  content: "\e952"
+}
+
+.icon-world:before {
+  content: "\e953"
+}
+
+.icon-head:before {
+  content: "\e931"
+}
+
+.icon-envelope:before {
+  content: "\e932"
+}
+
+.icon-home-icon-silhouette:before {
+  content: "\e933"
+}
+
+.icon-thumb:before {
+  content: "\e934";
+  color: #515151
+}
+
+.icon-list-02:before {
+  content: "\e92f"
+}
+
+.icon-list-03:before {
+  content: "\e930"
+}
+
+.icon-filter:before {
+  content: "\e92e"
+}
+
+.icon-down-arrow:before {
+  content: "\e920"
+}
+
+.icon-left-arrow:before {
+  content: "\e921"
+}
+
+.icon-right-arrow:before {
+  content: "\e922"
+}
+
+.icon-up-arrow:before {
+  content: "\e923"
+}
+
+.icon-label-star:before {
+  content: "\e929"
+}
+
+.icon-thumbnail-veiw:before {
+  content: "\e92a"
+}
+
+.icon-list:before {
+  content: "\e92b"
+}
+
+.icon-shopping:before {
+  content: "\e92c"
+}
+
+.icon-thumbnail:before {
+  content: "\e92d"
+}
+
+.icon-latest2:before {
+  content: "\e91c"
+}
+
+.icon-learning_centre:before {
+  content: "\e91d"
+}
+
+.icon-loans:before {
+  content: "\e91e"
+}
+
+.icon-calculator-02:before {
+  content: "\e91f"
+}
+
+.icon-latest:before {
+  content: "\e917"
+}
+
+.icon-calculator:before {
+  content: "\e918"
+}
+
+.icon-learning-center:before {
+  content: "\e919"
+}
+
+.icon-credit-card:before {
+  content: "\e91a"
+}
+
+.icon-loan:before {
+  content: "\e91b"
+}
+
+.icon-close:before {
+  content: "\e914"
+}
+
+.icon-question:before {
+  content: "\e915"
+}
+
+.icon-settings:before {
+  content: "\e916"
+}
+
+.icon-premium:before {
+  content: "\e913"
+}
+
+.icon-all-cards:before {
+  content: "\e904"
+}
+
+.icon-balance-transfer:before {
+  content: "\e905"
+}
+
+.icon-cash-back:before {
+  content: "\e906"
+}
+
+.icon-promo:before {
+  content: "\e90c"
+}
+
+.icon-islamic:before {
+  content: "\e90d"
+}
+
+.icon-low-interest:before {
+  content: "\e90e"
+}
+
+.icon-no-annual-fee:before {
+  content: "\e90f"
+}
+
+.icon-petrol:before {
+  content: "\e910"
+}
+
+.icon-rewards:before {
+  content: "\e911"
+}
+
+.icon-travel:before {
+  content: "\e912"
+}
+
+.icon-google-plus:before {
+  content: "\e900"
+}
+
+.icon-email:before {
+  content: "\e926"
+}
+
+.icon-pinterest:before {
+  content: "\e955"
+}
+
+.icon-linkedin:before {
+  content: "\e954"
+}
+
+.icon-facebook:before {
+  content: "\e927"
+}
+
+.icon-twitter:before {
+  content: "\e928"
+}
+
+.icon-search50:before {
+  content: "\e925"
+}
+
+.icon-send:before {
+  content: "\e924"
+}
+
+.icon-asb:before {
+  content: "\e903"
+}
+
+.icon-HomeLoan:before {
+  content: "\e902"
+}
+
+.icon-Home-Refinance:before {
+  content: "\e901"
+}
+
+.icon-mortgage:before {
+  content: "\e907"
+}
+
+.icon-Creditcard:before {
+  content: "\e908"
+}
+
+.icon-Personal-Loan:before {
+  content: "\e909"
+}
+
+.icon-subscribe:before {
+  content: "\e90a"
+}
+
+.icon-gift:before {
+  content: "\e90b"
+}
+
+/*=========================================================*/
+:root {
+  --color-1: #1b7e3e;
+  --color-2: #3ad570;
+  --color-3: #333336;
+  --color-text-1: #646464;
+}
+
+
+body {
+  font-family: 'Century Gothic', sans-serif;
+  color: var(--color-text-1);
+}
+
+.link-text {
+  color: var(--color-text-1);
+}
+
+.link-text:hover {
+  color: var(--color-2);
+  text-decoration: none;
+}
+
+.btn-custom {
+  background-color: var(--color-2);
+  border-radius: 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 5px 30px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,.2);
+  transition: all .3s;
+}
+
+.btn-custom:focus {
+  outline: none;
+}
+
+.btn-custom:hover {
+  color: #fff;
+  background-color: var(--color-1);
+  box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+}
+
+/* Start Edit Bootstrap Elements Section*/
+.navbar-brand img {
+  max-width: 100%;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: .5rem;
+  cursor: pointer;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: var(--color-3);
+  background-color: transparent;
+}
+
+.dropdown-menu {
+  right: 0;
+  left: auto;
+  margin: 0.03rem 0 0;
+  padding: .5rem 0 0; 
+  border: none;
+  border-radius: 0;
+  display: block;
+  transform: scale(0);
+  transform-origin: 100% 0;
+  transition: all .3s !important;
+}
+
+.nav-item:hover .dropdown-menu{
+  transform: scale(1);
+}
+
+.nav-item:hover .nav-link::before {
+  width: 100%;
+}
+
+.nav-link {
+  padding: 1.5rem 1rem;
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: var(--color-2);
+}
+
+.nav-link::before {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0;
+  margin-top: -3px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 10;
+  background-color: var(--color-2);
+  transition: all .3s !important;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.form-control:focus {
+  border-color: transparent;
+  border-top-color: #000;
+  box-shadow: none;
+}
+
+/* CARDS */
+.card-feature {
+  border:none;
+  border-radius: 0;
+  box-shadow: 6px 6px 10px rgba(0,0,0,.2);
+}
+
+.card-img-top {
+  width: 95%;
+  margin: 0 auto;
+  position: relative;
+  top: -30px;
+  overflow: hidden;
+  border-radius: calc(.25rem - 1px);
+  box-shadow: 0px 10px 10px -5px rgba(0,0,0,.4);
+}
+
+.card-img-top img {
+  display: block;
+  width: 100%;
+}
+
+.card-body {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.list-group {
+  height: 100px;
+  overflow: hidden;
+}
+
+.list-group-item {
+  border: none;
+  padding: 0.2rem 1.25rem;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+/* CAROUSEL */
+
+.carousel-indicators {
+  position: absolute;
+  background-color: var(--color-2);
+  padding: 13px 0;
+  margin: 0;
+  bottom: -36px;
+  left: 0;
+  right: 0;
+  text-align: right;
+  box-shadow: 6px 6px 10px rgba(0,0,0,.2);
+}
+
+.carousel-indicators::before {
+  content: "Sponsered";
+  line-height: 0.7;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* ACCORDION RESTYLE */
+.card-header {
+  padding: 0;
+  background: none;
+  border: none;
+}
+/* End Edit Bootstrap Elements Section*/
+
+
+
+/* Start Edit Custom Elements Section*/
+/* NAV SECTION */
+.top-nav {
+  background-color: var(--color-3) !important;
+}
+
+.nav-logo {
+  max-width: 180px;
+}
+
+.nav-form {
+  position: relative;
+}
+
+.search-form {
+  margin-right: 20px;
+}
+
+.search-form:hover .search-input {
+  transform: scale(1);
+}
+
+.search-icon {
+  padding: 1.5rem 1rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.search-icon:hover {
+  color: var(--color-2);
+}
+
+.search-input {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  transform: scale(0);
+  transition: all .3s;
+}
+
+.search-input input[type="search"] {
+  margin: 0 !important;
+}
+
+.dropdown-list li:first-child:hover [class^="icon-"] {
+  color: var(--color-2);
+}
+
+.dropdown-list li {
+  margin-bottom: .5rem;
+}
+
+.credit-menu {
+  position: relative;
+}
+
+.cc-add {
+  position: absolute;
+  bottom: -99px;
+  width: 100%;
+}
+
+.cc-add img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.language_link {
+  color: var(--color-2);
+}
+
+/* BANNER SECTION */
+.icon-w {
+  display: inline-block;
+  font-size: 150px;
+  color: var(--color-2);
+  line-height: 1;
+}
+
+.banner {
+  width: 100%;
+  background: url(../imgs/banner-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding: 55px 0 45px;
+}
+
+.banner_title {
+  text-align: center;
+}
+
+.banner_title h1,
+.banner_title p {
+  color: #fff
+}
+
+.banner_title h1 {
+  font-weight: bold;
+}
+
+.banner_title p {
+  padding: 0 10rem;
+  margin-bottom: 30px;  
+}
+
+.banner-widget {
+  background-color: #fff;
+  position: relative;
+  padding: 20px;
+}
+
+.fltr-title {
+  position: absolute;
+  top: -47%;
+  left: 0;
+  background-color: var(--color-1);
+  padding: 20px 5px;
+  text-align: center;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+  box-shadow: 0 12px 10px -5px rgba(0,0,0,.2);
+}
+
+.holder {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.holder span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.fltr-label {
+  display: block;
+}
+
+.fltr-field {
+  position: relative;
+  display: block;
+}
+
+.fltr-field input {
+  padding: 8px;
+  width: 100%;
+  color: inherit;
+}
+
+.fltr-field input:focus {
+  outline: none;
+}
+
+.fltr-field input:focus + .fltr-name {
+  background-color: var(--color-2);
+}
+
+.fltr-field #property_value {
+  padding-left: 55px;
+}
+
+.fltr-field #margin,
+.fltr-field #tenure {
+  padding-right: 7px;
+}
+
+.fltr-name {
+  display: block;
+  padding: 11px;
+  min-width: 50px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: center;
+  background-color: var(--color-1);
+  transition: background-color .3s;
+}
+
+.fltr-name-l {
+  left: 0;
+}
+
+.fltr-name-r {
+  right: 0;
+}
+
+.filter_checkbox {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.filter_checkbox input {
+  display: none;
+}
+
+.filter_checkbox input:checked + .control-label span {
+  background-color: var(--color-1);
+}
+
+.control-label {
+  cursor: pointer;
+}
+
+.control-label span {
+  display: inline-block;
+  margin-right: 3px;
+  width: 20px;
+  height: 20px;
+  background-color: #d7d7d7;
+  vertical-align: middle;
+  transition: background-color .3s;
+}
+
+
+/* CONTENT SECTION STYLE */
+.content {
+  background-color: #f0f0f0;
+  padding-bottom: 60px;
+}
+
+.featured-wrap,
+.loan-wrap {
+  padding-top: 50px;
+}
+
+.featured-header {
+  margin-bottom: 45px;
+}
+
+.f-label {
+  display: inline-block;
+  width: 100%;
+  background-color: #aaa;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.card-body-b {
+  padding: 0;
+  padding-top: 10px;
+}
+
+.card-body-b .btn-custom {
+  box-shadow: none;
+}
+
+
+.help-link a {
+  text-decoration: underline;
+  color: var(--color-text-1);
+}
+
+.help-link i {
+  color: var(--color-1);
+  font-size: 30px;
+}
+
+.sponsers {
+  width: 100%;
+  box-shadow: 6px 6px 10px rgba(0,0,0,.2);
+}
+
+
+/* COMPARE LOANS SECTION STYLE */
+.copm-header {
+  background-color: #fff;
+  box-shadow: 0px 7px 5px -5px rgba(0,0,0,.2);
+  padding: 10px 15px 0;
+}
+
+.loan-title {
+  font-weight: bold;
+  display: inline-block;
+  line-height: 2;
+}
+
+.comp-type i:last-of-type {
+  margin-left: -5px; 
+}
+
+.copm-title {
+  display: inline-block;
+  font-size: 14px;
+  width: 100%;
+}
+
+.comp-list li {
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.process .btn-custom {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
+  position: relative;
+  left: -10px;
+}
+
+.result-item {
+  position: relative;;
+  background-color: #fff;
+  margin-top: 30px;
+  padding: 10px 15px 0;
+  box-shadow: 0px 7px 5px -5px rgba(0,0,0,.2);
+}
+
+.bank-name {
+  font-weight: bold;
+}
+
+.bank-detail-list {
+  margin-top: 16px;
+}
+
+.more-detail {
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+.more-detail #view-more-check {
+  display: none;
+}
+
+.more-detail #view-more-check:checked + .view-more-label span i {
+  transform: rotate(180deg);
+}
+
+.view-more-label {
+  cursor: pointer;
+}
+
+.view-more-label span {
+  display: inline-block;
+  font-size: 12px;
+  text-align: center;
+}
+
+.view-more-label span i {
+  display: inline-block;
+  transition: transform .3s;
+}
+
+.selete-item {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  padding: 5px 10px;
+}
+
+.selete-item #select-item-check {
+  display: none;
+}
+
+.selete-item #select-item-check:checked + .select-lable .check-c::before {
+  background-color: var(--color-1);
+  left: auto;
+  right: -1px;
+
+}
+
+.select-lable {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.check-c {
+  display: inline-block;
+  width: 30px;
+  height: 10px;
+  background-color: #bebebe;
+  border-radius: 5px;
+  position: relative;
+  margin-right: 5px;
+}
+
+.check-c::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #e2e2e2;
+  position: absolute;
+  top: -5px;
+  left: -1px;
+  transition: all .3s;
+}
+
+.bank-detail-more {
+  border-top: 1px dashed #bebebe;
+  padding-top: 20px;
+}
+
+.bank-detail-more h4 {
+  font-weight: bold;
+}
+
+.bank-detail-more ul li {
+  position: relative;
+  font-size: 14px;
+}
+
+.bank-detail-more ul li::before {
+  content: "";
+  background: #717171;
+  position: absolute;
+  display: block;
+  top: 11px;
+  left: -10px;
+  width: 4px;
+  height: 4px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #333336;
+  color: #aaa;
+}
+
+.footer-main,
+.footer-middle {
+  padding: 40px 0;
+}
+
+.footer-middle,
+.footer-bottom {
+  border-top: 1px solid #777;
+}
+
+.footer-a {
+  color: #aaa;
+}
+
+.footer-a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-item h4 {
+  color: var(--color-2);
+}
+
+.footer-item ul li {
+  position: relative;
+}
+
+.footer-item ul li:hover::before {
+  opacity: 1
+}
+
+.footer-item ul li::before {
+  content: "\e958";
+  font-family: 'icomoon' !important;
+  font-size: 10px;
+  display: inline-block;
+  color: inherit;
+  position: absolute;
+  top: 7px;
+  left: -12px;
+  opacity: 0;
+  transition: opacity .3s;
+}
+
+.footer-item ul li:not(:last-child) {
+  margin-bottom: 7px;
+}
+
+.footer-icon ul li {
+  margin-right: 10px;
+}
+
+.footer-icon ul li::before {
+  content: "";
+}
+
+.footer-icon ul li i {
+  font-size: 30px;
+  transition: all .3s;
+}
+
+.related-links:first-of-type {
+  margin-bottom: 30px;
+}
+
+.related-links h4 {
+  font-weight: bold;
+}
+
+.related-links ul li {
+  padding: 0 10px;
+  margin-bottom: 5px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+.footer-bottom span:first-child {
+  margin-right: 20px;
+}
+
+.footer-bottom span:not(:first-child) {
+  padding: 0 10px;
+}
+
+/* End Edit Custom Elements Section*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
