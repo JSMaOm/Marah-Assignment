@@ -514,7 +514,7 @@ body {
 }
 
 .btn-custom {
-  background-color: var(--color-2);
+  background-color: var(--color-1);
   border-radius: 0;
   color: #fff;
   font-size: 18px;
@@ -531,7 +531,7 @@ body {
 
 .btn-custom:hover {
   color: #fff;
-  background-color: var(--color-1);
+  background-color: var(--color-2);
   box-shadow: 2px 2px 5px rgba(0,0,0,.2);
 }
 
@@ -582,7 +582,7 @@ body {
 }
 
 .nav-link:hover {
-  color: var(--color-2);
+  color: var(--color-1);
 }
 
 .nav-link::before {
@@ -595,7 +595,7 @@ body {
   top: 100%;
   left: 0;
   z-index: 10;
-  background-color: var(--color-2);
+  background-color: var(--color-1);
   transition: all .3s !important;
 }
 
@@ -656,7 +656,7 @@ body {
 
 .carousel-indicators {
   position: absolute;
-  background-color: var(--color-2);
+  background-color: var(--color-1);
   padding: 13px 0;
   margin: 0;
   bottom: -36px;
@@ -762,14 +762,14 @@ body {
 }
 
 .language_link {
-  color: var(--color-2);
+  color: var(--color-1);
 }
 
 /* BANNER SECTION */
 .icon-w {
   display: inline-block;
   font-size: 150px;
-  color: var(--color-2);
+  color: var(--color-1);
   line-height: 1;
 }
 
@@ -1142,7 +1142,7 @@ body {
 }
 
 .footer-item h4 {
-  color: var(--color-2);
+  color: var(--color-1);
 }
 
 .footer-item ul li {
